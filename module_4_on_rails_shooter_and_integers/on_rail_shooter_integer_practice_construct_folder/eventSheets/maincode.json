@@ -1641,7 +1641,24 @@
 						}
 					],
 					"actions": [],
-					"sid": 553783628766302
+					"sid": 553783628766302,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-overlapping-another-object",
+									"objectClass": "Asteroid",
+									"sid": 833298133200176,
+									"parameters": {
+										"object": "Ship"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 527793775970501
+						}
+					]
 				}
 			]
 		}

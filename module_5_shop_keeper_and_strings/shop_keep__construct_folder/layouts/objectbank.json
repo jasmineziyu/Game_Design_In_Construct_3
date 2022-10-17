@@ -1919,6 +1919,39 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "dialoguetigger",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "dialogue trigger",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {
+						"character_name": "",
+						"Event": false,
+						"line": ""
+					},
+					"behaviors": {},
+					"world": {
+						"x": 54,
+						"y": 63,
+						"width": 11.311999999999998,
+						"height": 11.407999999999994,
+						"originX": 0.5357142857142857,
+						"originY": 1.0158730158730158,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 642033398198751,

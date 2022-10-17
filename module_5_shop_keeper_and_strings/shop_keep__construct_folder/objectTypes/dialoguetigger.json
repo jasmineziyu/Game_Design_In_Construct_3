@@ -1,0 +1,68 @@
+{
+	"name": "dialoguetigger",
+	"plugin-id": "Sprite",
+	"sid": 371209965591194,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "character_name",
+			"type": "string",
+			"desc": "",
+			"sid": 802934928429498
+		},
+		{
+			"name": "Event",
+			"type": "boolean",
+			"desc": "",
+			"sid": 764553194504413
+		},
+		{
+			"name": "line",
+			"type": "string",
+			"desc": "",
+			"sid": 687194757290406
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 252,
+						"height": 252,
+						"originX": 0.5357142857142857,
+						"originY": 1.0158730158730158,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7609262,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0.003968253968253968,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 566595025398694,
+				"name": "dialogue trigger",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
