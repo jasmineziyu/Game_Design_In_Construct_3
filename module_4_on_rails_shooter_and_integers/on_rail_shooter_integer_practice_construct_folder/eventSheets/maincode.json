@@ -1577,9 +1577,32 @@
 			"children": [
 				{
 					"eventType": "block",
-					"conditions": [],
-					"actions": [],
-					"sid": 219023901183184
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 720847725020979,
+							"parameters": {
+								"interval-seconds": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 109180313511776,
+							"parameters": {
+								"object-to-create": "Asteroid",
+								"layer": "\"HUD\"",
+								"x": "random(0+20, 320-20)",
+								"y": "random(0+20, 180-20)",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						}
+					],
+					"sid": 227685968328212
 				}
 			],
 			"sid": 703677530361462,
@@ -1588,6 +1611,38 @@
 				0.47843137254901963,
 				0,
 				1
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 235069135025979,
+					"parameters": {
+						"object": "Asteroid"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 738226755617504,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Asteroid",
+							"sid": 398215544568016,
+							"parameters": {
+								"object": "Ship"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 553783628766302
+				}
 			]
 		}
 	],

@@ -1,7 +1,7 @@
 {
-	"name": "Star",
+	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 790779177899488,
+	"sid": 170466774766683,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,25 +11,25 @@
 			{
 				"frames": [
 					{
-						"width": 4,
-						"height": 4,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5035959,
+						"imageSpriteId": 1323906,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 282511710242015,
-				"name": "Default",
+				"sid": 326781582512534,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 0
+				"speed": 5
 			}
 		],
 		"subfolders": []
